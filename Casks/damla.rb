@@ -1,8 +1,8 @@
 # Homebrew cask for Damla. release.sh fills in the version and the dmg's sha256 and pushes it to the tap
 # repository erkamyigitaydin/homebrew-tap, so `brew install --cask erkamyigitaydin/tap/damla` works.
 cask "damla" do
-  version "0.6.1"
-  sha256 "fc3096b80df581e177c059aca9cc43641e9b9264124757b3ed8f11bafda558af"
+  version "0.7.0"
+  sha256 "0f913d2adacbc8112bd4fdaee4a6e7b2e1d7863ab9b24432927bc81ec5640cf1"
 
   url "https://github.com/erkamyigitaydin/Damla/releases/download/v#{version}/Damla-#{version}.dmg"
   name "Damla"
